@@ -184,13 +184,15 @@ li a {
 }
 
 .flex-item-2 {
-  background-color: #f0f9ff;
+  background-color: #fff;
   width: 350px;
   height: 400px;
   border-radius: 20px;
 
   display: flex;
   flex-direction: column;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .image {
@@ -199,6 +201,7 @@ li a {
   overflow: hidden;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  flex-grow: 1;
 }
 
 .image img {
@@ -208,16 +211,140 @@ li a {
 
 .flex-content-2 {
   padding: 10px;
+  height: 200px;
+  flex-grow: 1;
 }
 
-.flex-container2 h2 {
-  font-size: 35px;
+.flex-content-2 h2 {
+  font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  margin: 10px;
-  margin-bottom: 20px;
 }
 
 .flex-container2 .button {
   margin: 40px;
+}
+
+.capital {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* footer styles */
+footer {
+  background-color: #f0f9ff;
+}
+
+.footer-section {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+}
+
+.flex-box3 {
+  min-height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.flex-item-3 {
+  width: 300px;
+  height: 300px;
+}
+
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.care-flex h2 {
+  color: #00a0fd;
+  padding: 10px 10px 10px 0;
+}
+
+.care-flex ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.care-flex ul li {
+  padding-bottom: 5px;
+}
+
+.pract-flex h2 {
+  color: #00a0fd;
+  padding: 10px 10px 10px 0;
+}
+
+.pract-flex ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pract-flex ul li {
+  padding-bottom: 5px;
+}
+
+.cont-flex h2 {
+  color: #00a0fd;
+  padding: 10px 10px 10px 0;
+}
+
+.cont-flex ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cont-flex h2 a {
+  color: #00a0fd;
+  text-decoration: none;
+}
+
+.final-flex {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  padding: ;
+  margin: ;
+}
+
+.final-flex li {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: #fff;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 50px;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.landing {
+  background-color: #00a0fd;
+}
+
+.flex-box4 {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+
+  color: #fff;
 }
